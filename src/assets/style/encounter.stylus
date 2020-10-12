@@ -1,0 +1,60 @@
+// 你画我猜
+.drawing
+   width 345px   
+   height 241px
+   border-radius 7px
+   margin 28px 0 26px 16px
+   display flex
+   justify-content space-between
+   //左日期
+   .date
+     height 27px
+     font-size 11px
+     font-family LaoUI
+     font-weight bold
+     color #999999 
+     margin-top 20px 
+     span             
+       font-size: 18px;
+       font-family: LaoUI;
+       font-weight: bold;
+       color: #333333; 
+   //右半部分
+   .wonder
+     width 294px
+     height 241px
+     background #F7F8FA
+     border-radius 7px  
+     //你画我猜6人 7158房 
+     .title
+         width 148px
+         height 15px
+         font-size 16px
+         font-family PingFang
+         font-weight bold
+         color #333333   
+         margin 18px 0 20px 14px 
+     .figure
+         width 266px
+         margin-left 13px       
+         display flex
+         flex-wrap wrap
+         .head
+            width 52px
+            height 70px
+            display flex
+            flex-direction column
+            justify-content space-between
+            align-items center
+            margin-bottom 24px
+            margin-right 14px
+            .circle
+                width 100%
+                height 52px                
+                background #D1CAD1
+                border-radius 50%
+            .content                             
+                font-size 11px
+                font-family PingFang
+                font-weight bold
+                color #333333

@@ -7,8 +7,18 @@ import store from './store'
 //引入css样式
 import "./assets/style/reset.stylus";
 
+// 聊天推荐css样式
+import "./assets/style/classify.stylus";
+
+// 好友在玩css样式
+import "./assets/style/friend.stylus";
+
+// 遇到的人css样式
+import "./assets/style/encounter.stylus";
+
 //移动端适配
 import "amfe-flexible";
+
 
 //引入Vant框架
 import { Tabbar, TabbarItem, Tab, Tabs, NavBar } from 'vant';
